@@ -9,9 +9,11 @@ int main()
 {
 string name;
 
-name = "Alex";
+cout << "Please input your name" << endl;
+cin >> name;
 
-cout << name << endl;
+
+cout <<"Your name is" << name << endl;
 
 
 
