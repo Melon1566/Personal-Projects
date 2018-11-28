@@ -37,7 +37,37 @@ value = v;
 
 
 }
-
-
+//getter function for right node pointer
+Node<E>* getRight()
+{
+return right;
 }
+//setter function for right node pointer
+void setRight(Node<E>* right)
+{
+this->right = right;
+}
+//getter function for left node pointer
+Node<E>* getLeft()
+{
+return left;
+}
+//setter function for left node pointer
+void setLeft(Node<E>* left)
+{
+this->left = left;
+}
+//getter function for node value
+E getValue()
+{
+return value;
+}
+//setter function for node value
+void setValue(E value)
+{
+this->value = value;
+}
+
+
+};
 
